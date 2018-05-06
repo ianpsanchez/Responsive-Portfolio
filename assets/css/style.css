@@ -1,0 +1,823 @@
+body {
+    /* margin-top: 10px; */
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+a {
+   color: #777777;
+   text-decoration: none;
+}
+#topbar {
+    margin: 0 auto auto auto;
+    width: 960px;
+    /* border-bottom: 2px solid #777777; */
+    /* height: 100px; */
+}
+#vertline {
+    color: #eeeeee;
+}
+#yournametag {
+    /* border: 1px solid red; */
+    background-color: #4aaaa5;
+    /* padding: 10px; */
+    padding: 35px 0;
+    text-align: center;
+    float: left;
+    width: 250px;
+    /* height: 70px; */
+    /* text-align: justify; */
+}
+#toplinks {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    /* padding: 10px 0 10px 10px; */
+    padding: 35px 0 35px 0;
+    float: right;
+}
+#maincontentblock {
+    /* position: relative; */
+    border-top: 1px solid #777777;
+    clear: both;
+    background-image: URL(../images/light-veneer.png);
+    /* background-color: grey; */
+    padding: 25px 0 60px 0;
+}
+.innercontentblock {
+    background-color: white;
+    width: 920px;
+    padding: 20px;
+    margin: 25px auto 35px auto;
+}
+.innercontentblock_portfolio {
+    /* position: relative; */
+    /* float: left; */
+    background-color: white;
+    width: 920px;
+    padding: 20px;
+    margin: 25px auto 35px auto;
+}
+#innerheading {
+    color: #4aaaa5;
+}
+.imgfloatleft {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+#aboutmecontent {
+    line-height: 1.5;
+}
+#bottomspacer {
+    /* width: 920px;
+    padding: 20px; */
+    height: 4px;
+    margin: 0 auto 0 auto;
+    background-color: #4aaaa5;
+}
+.bottomline {
+    color: black;
+    size: 30;
+}
+#footerid {
+    
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+    color: #ffffff;
+    background-color: #666666;
+    /* height: 40px; */
+}
+#submitbutton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    box-shadow: 0;
+}
+.dotherelative {
+    /* position: relative;
+    margin: 0 auto 0 auto;
+    float: left; */
+}
+#imgs1 {
+    /* position: relative; */
+    /* float: left; */
+    position: relative;
+    margin: 0 15px 0 0;
+    
+}
+#imgs2 {
+    /* position: absolute; */
+    /* float: left; */
+    /* padding: 0 0 15px 15px; */
+    /* position: relative; */
+  position: relative;
+    margin: 0 15px 0 0;
+ 
+}
+#imgs3 {
+     /* position: relative; */
+    /* float: left; */
+    /* clear: both; */
+    position: relative;
+    padding: 15px 15px 15px 0;
+}
+#imgs4 {
+    /* position: absolute; */
+    /* float: left; */
+    position: relative;
+    padding: 15px 0 0 15px;
+}
+#imgs5 {
+    /* position: absolute; */
+    /* float: left; */
+    position: relative;
+    padding: 15px 15px 0 0;
+}
+
+#imagelabel {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    /* bottom: 14px; */
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.setrelative {
+    position: relative;
+    width: 920px;
+}
+.setabsolute {
+    position: absolute;
+}
+#imageswrapper {
+   /* border: 1px solid black; */
+   width: 430px;
+   height: 700px;
+    
+}
+
+.imgsfr {
+position: relative;
+/* border: 1px solid black; */
+height: 200px;
+width: 200px;
+float: right;
+margin: 0 0 30px 0;
+}
+.imgsfl {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 0 30px 0;
+}
+   
+h3 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    bottom: 13px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+input {
+    width: 100%;
+}
+#submitbutton {
+    width: 75px;
+}
+#memo {
+    height: 100px;
+}
+
+@media only screen and (max-width: 980px) {
+    /* body {
+        background-color: lime;
+        align-content: left;
+    } */
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+    }
+    a {
+       color: #777777;
+       text-decoration: none;
+    }
+    #topbar {
+        margin: 0 auto auto 30px;
+        width: 75%;
+        /* border-bottom: 2px solid #777777; */
+        /* height: 100px; */
+    }
+    #vertline {
+        color: #eeeeee;
+    }
+    #yournametag {
+        /* border: 1px solid red; */
+        background-color: #4aaaa5;
+        /* padding: 10px; */
+        padding: 35px 0;
+        text-align: center;
+        float: left;
+        width: 250px;
+        /* height: 70px; */
+        /* text-align: justify; */
+    }
+    #toplinks {
+        /* border: 1px solid red; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #777777;
+        /* padding: 10px 0 10px 10px; */
+        padding: 35px 0 35px 0;
+        float: right;
+    }
+    #maincontentblock {
+        /* position: relative; */
+        border-top: 1px solid #777777;
+        clear: both;
+        background-image: URL(../images/light-veneer.png);
+        /* background-color: grey; */
+        padding: 25px 0 60px 0;
+    }
+    .innercontentblock {
+        background-color: white;
+        width: 50%;
+        padding: 20px;
+        margin: 25px auto 35px 30px;
+    }
+    .innercontentblock_portfolio {
+        /* position: relative; */
+        /* float: left; */
+        background-color: white;
+        width: 50%;
+        padding: 20px;
+        margin: 25px auto 35px 30px;
+    }
+    #innerheading {
+        color: #4aaaa5;
+    }
+    .imgfloatleft {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
+    #aboutmecontent {
+        line-height: 1.5;
+    }
+    #bottomspacer {
+        /* width: 920px;
+        padding: 20px; */
+        height: 4px;
+        margin: 0 auto 0 auto;
+        background-color: #4aaaa5;
+    }
+    .bottomline {
+        color: black;
+        size: 30;
+    }
+    #footerid {
+        
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        color: #ffffff;
+        background-color: #666666;
+        /* height: 40px; */
+    }
+    #submitbutton {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        box-shadow: 0;
+    }
+    .dotherelative {
+        /* position: relative;
+        margin: 0 auto 0 auto;
+        float: left; */
+    }
+    #imgs1 {
+        /* position: relative; */
+        /* float: left; */
+        position: relative;
+        margin: 0 15px 0 0;
+        
+    }
+    #imgs2 {
+        /* position: absolute; */
+        /* float: left; */
+        /* padding: 0 0 15px 15px; */
+        /* position: relative; */
+      position: relative;
+        margin: 0 15px 0 0;
+     
+    }
+    #imgs3 {
+         /* position: relative; */
+        /* float: left; */
+        /* clear: both; */
+        position: relative;
+        padding: 15px 15px 15px 0;
+    }
+    #imgs4 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 0 0 15px;
+    }
+    #imgs5 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 15px 0 0;
+    }
+    
+    #imagelabel {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        /* bottom: 14px; */
+        background-color: #4aaaa5;
+        color: #ffffff;
+    }
+    .setrelative {
+        position: relative;
+        width: 920px;
+    }
+    .setabsolute {
+        position: absolute;
+    }
+    #imageswrapper {
+       /* border: 1px solid black; */
+       width: 430px;
+       height: 700px;
+        
+    }
+    
+    .imgsfr {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 0 0 30px 0;
+    }
+    .imgsfl {
+        position: relative;
+        /* border: 1px solid black; */
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin: 0 0 30px 0;
+    }
+       
+    h3 {
+        position: absolute;
+        width: 200px;
+        height: 15px;
+        bottom: 13px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    input {
+        width: 100%;
+    }
+    #submitbutton {
+        width: 75px;
+    }
+    #memo {
+        height: 100px;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    /* body {
+        background-color: black;
+    } */
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+    }
+    a {
+       color: #777777;
+       text-decoration: none;
+    }
+    #topbar {
+        margin: 0 auto auto auto;
+        width: 75%;
+        /* border-bottom: 2px solid #777777; */
+        /* height: 100px; */
+    }
+    #vertline {
+        color: #eeeeee;
+    }
+    #yournametag {
+        /* border: 1px solid red; */
+        background-color: #4aaaa5;
+        /* padding: 10px; */
+        padding: 35px 0;
+        text-align: center;
+        float: left;
+        width: 250px;
+        /* height: 70px; */
+        /* text-align: justify; */
+    }
+    #toplinks {
+        /* border: 1px solid red; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #777777;
+        /* padding: 10px 0 10px 10px; */
+        padding: 35px 0 35px 0;
+        float: right;
+    }
+    #maincontentblock {
+        /* position: relative; */
+        border-top: 1px solid #777777;
+        clear: both;
+        background-image: URL(../images/light-veneer.png);
+        /* background-color: grey; */
+        padding: 25px 0 60px 0;
+    }
+    .innercontentblock {
+        background-color: white;
+        width: 75%;
+        padding: 20px;
+        margin: 25px auto 35px auto;
+    }
+    .innercontentblock_portfolio {
+        /* position: relative; */
+        /* float: left; */
+        background-color: white;
+        width: 75%;
+        padding: 20px;
+        margin: 25px auto 35px auto;
+    }
+    #innerheading {
+        color: #4aaaa5;
+    }
+    .imgfloatleft {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
+    #aboutmecontent {
+        line-height: 1.5;
+    }
+    #bottomspacer {
+        /* width: 920px;
+        padding: 20px; */
+        height: 4px;
+        margin: 0 auto 0 auto;
+        background-color: #4aaaa5;
+    }
+    .bottomline {
+        color: black;
+        size: 30;
+    }
+    #footerid {
+        
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        color: #ffffff;
+        background-color: #666666;
+        /* height: 40px; */
+    }
+    #submitbutton {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        box-shadow: 0;
+    }
+    .dotherelative {
+        /* position: relative;
+        margin: 0 auto 0 auto;
+        float: left; */
+    }
+    #imgs1 {
+        /* position: relative; */
+        /* float: left; */
+        position: relative;
+        margin: 0 15px 0 0;
+        
+    }
+    #imgs2 {
+        /* position: absolute; */
+        /* float: left; */
+        /* padding: 0 0 15px 15px; */
+        /* position: relative; */
+      position: relative;
+        margin: 0 15px 0 0;
+     
+    }
+    #imgs3 {
+         /* position: relative; */
+        /* float: left; */
+        /* clear: both; */
+        position: relative;
+        padding: 15px 15px 15px 0;
+    }
+    #imgs4 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 0 0 15px;
+    }
+    #imgs5 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 15px 0 0;
+    }
+    
+    #imagelabel {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        /* bottom: 14px; */
+        background-color: #4aaaa5;
+        color: #ffffff;
+    }
+    .setrelative {
+        position: relative;
+        width: 920px;
+    }
+    .setabsolute {
+        position: absolute;
+    }
+    #imageswrapper {
+       /* border: 1px solid black; */
+       width: 430px;
+       height: 700px;
+        
+    }
+    
+    .imgsfr {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 0 0 30px 0;
+    }
+    .imgsfl {
+        position: relative;
+        /* border: 1px solid black; */
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin: 0 0 30px 0;
+    }
+       
+    h3 {
+        position: absolute;
+        width: 200px;
+        height: 15px;
+        bottom: 13px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    input {
+        width: 100%;
+    }
+    #submitbutton {
+        width: 75px;
+    }
+    #memo {
+        height: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    /* body {
+        background-color: olive;
+    } */
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+    }
+    a {
+       color: #777777;
+       text-decoration: none;
+    }
+    #topbar {
+        margin: 0 auto auto auto;
+        width: 640px;
+        /* border-bottom: 2px solid #777777; */
+        /* height: 100px; */
+    }
+    #vertline {
+        color: #eeeeee;
+    }
+    #yournametag {
+        /* border: 1px solid red; */
+        background-color: #4aaaa5;
+        /* padding: 10px; */
+        padding: 35px 0;
+        text-align: center;
+        float: left;
+        width: 640px;
+        /* height: 70px; */
+        /* text-align: justify; */
+    }
+    #toplinks {
+        /* border: 1px solid red; */
+        align-self: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #777777;
+        /* padding: 10px 0 10px 10px; */
+        width: 420px;
+        /* align-content: center; */
+        padding: 5px 0 5px 0;
+    }
+    #maincontentblock {
+        /* position: relative; */
+        border-top: 1px solid #777777;
+        clear: both;
+        background-image: URL(../images/light-veneer.png);
+        /* background-color: grey; */
+        padding: 25px 0 60px 0;
+        /* margin: 0; */
+    }
+    .innercontentblock {
+        background-color: white;
+        width: 640px;
+        padding: 20px;
+        /* margin: 25px 20px 35px auto; */
+        margin: 0;
+    }
+    .innercontentblock_portfolio {
+        /* position: relative; */
+        /* float: left; */
+        background-color: white;
+        width: 640px;
+        padding: 20px;
+        margin: 25px auto 35px auto;
+    }
+    #innerheading {
+        color: #4aaaa5;
+    }
+    .imgfloatleft {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
+    #aboutmecontent {
+        line-height: 1.5;
+    }
+    #bottomspacer {
+        /* width: 920px;
+        padding: 20px; */
+        height: 4px;
+        margin: 0 auto 0 auto;
+        background-color: #4aaaa5;
+    }
+    .bottomline {
+        color: black;
+        size: 30;
+    }
+    #footerid {
+        
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        color: #ffffff;
+        background-color: #666666;
+        /* height: 40px; */
+    }
+    #submitbutton {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        box-shadow: 0;
+    }
+    .dotherelative {
+        /* position: relative;
+        margin: 0 auto 0 auto;
+        float: left; */
+    }
+    #imgs1 {
+        /* position: relative; */
+        /* float: left; */
+        position: relative;
+        margin: 0 15px 0 0;
+        
+    }
+    #imgs2 {
+        /* position: absolute; */
+        /* float: left; */
+        /* padding: 0 0 15px 15px; */
+        /* position: relative; */
+      position: relative;
+        margin: 0 15px 0 0;
+     
+    }
+    #imgs3 {
+         /* position: relative; */
+        /* float: left; */
+        /* clear: both; */
+        position: relative;
+        padding: 15px 15px 15px 0;
+    }
+    #imgs4 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 0 0 15px;
+    }
+    #imgs5 {
+        /* position: absolute; */
+        /* float: left; */
+        position: relative;
+        padding: 15px 15px 0 0;
+    }
+    
+    #imagelabel {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        /* bottom: 14px; */
+        background-color: #4aaaa5;
+        color: #ffffff;
+    }
+    .setrelative {
+        position: relative;
+        width: 920px;
+    }
+    .setabsolute {
+        position: absolute;
+    }
+    #imageswrapper {
+       /* border: 1px solid black; */
+       width: 430px;
+       height: 700px;
+        
+    }
+    
+    .imgsfr {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 0 0 30px 0;
+    }
+    .imgsfl {
+        position: relative;
+        /* border: 1px solid black; */
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin: 0 0 30px 0;
+    }
+       
+    h3 {
+        position: absolute;
+        width: 200px;
+        height: 15px;
+        bottom: 13px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    input {
+        width: 100%;
+    }
+    #submitbutton {
+        width: 75px;
+    }
+    #memo {
+        height: 100px;
+    }
+}
